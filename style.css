@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*bootstrap customize navidation */
+.navbar{
+    padding: 20px !important;
+}
+.nav-link{
+    color: darkorchid !important;
+    font-size: 20px !important;
+    margin-left: 20px !important;
+    font-family: 'Times New Roman', Times, serif !important ;
+    
+}
+body{
+    background-color: black !important;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #fff ; 
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+.form-control {
+    background-color: #212529 !important;
+    color: white !important; 
+    
+}
+.form-control::placeholder {
+    color: darkorchid !important; 
+}
+.btn-outline-success {
+    color: darkorchid !important; 
+    border-color: #fff !important;
+}
+/*movinh images*/
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+
+.carousel-indicators button {
+    width: 10px; 
+    height: 10px; 
+    margin: 0 10px; 
+    background-color:#fff; 
+    border: 1px solid #fff; 
+    border-radius: 50%;
+    opacity: 0.7; 
+    transition: opacity 0.3s;
+}
+.carousel-indicators button.active {
+    opacity: 1;
+}
+.text{
+    color: darkorchid;
+    margin-top: 30px;
+    margin-left:115px;
+    margin-right: 115px;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Today's pick css */
+.custom-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 50px;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card {
+    background: transparent !important;
+    width: 270px !important;
+    height: 500px !important;
+    margin: 10px !important;
+    border: 5px solid darkorchid !important;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.c-image {
+    background-color: #fff;
+    height: 400px;
+    background-size: cover;
+}
+
+.card h2 {
+    color: #fff !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    padding: 10px;
+    justify-content: center !important;
+}
+
+.card-1 {
+    background-image: url('images/pic1.webp');
+}
+
+.card-2 {
+    background-image: url('images/pic2.webp');
+}
+
+.card-3 {
+    background-image: url('images/pic3.jpg');
+}
+
+.card-4 {
+    background-image: url('images/move/pic4.jpg');
+}
+
+.card-5 {
+    background-image: url('images/pic7.webp');
+}
+
+@media (max-width: 768px) {
+    .custom-container {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
+
+.card:hover {
+    transform:translateY(-10px);
+}
+/* Comics Card Images*/
+
+.Comic-card {
+    background: transparent !important;
+    width: 400px !important;
+    height: 500px !important;
+    margin: 10px !important;
+    border: 5px solid darkorchid !important;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .comic-container {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
+.Comic-card:hover{
+    transform:translateY(-10px);
+}
+.c-image {
+    background-color: #fff;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover; 
+}
+.comic-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    
+}
+
+/* button CSS */
+.button-container {
+    position: flex;
+    margin-top: 20px;
+    right: 0;
+    margin-right:15px;
+    transform: translateY(-50%);
+    
+}
+
+.card-button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:darkorchid;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.card-button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .card-button {
+    padding: 0.25em 0.75em;
+  }
+}
+.text-n{
+    margin-left: 115px;
+    margin-top: 100px;
+    color: darkorchid;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Comic-card h2 {
+    color: #fff !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    padding: 10px;
+    justify-content: center !important;
+}
+.comic-1{
+    background-image: url('images/comics/image3.webp');
+
+}
+.comic-2{
+    background-image: url('images/comics/image4.jpg');
+
+    
+}
+.comic-3{
+    background-image: url('images/comics/images2.webp');
+
+}
+.comic-4{
+    background-image: url('images/comics/image8.jpg');
+}
+/*Novel cards*/
+.novel-1{
+    background-image: url('images/Novel/pic6.webp');
+}
+.novel-2{
+    background-image: url('images/Novel/im1.webp');
+}
+.novel-3{
+    background-image: url('images/Novel/im2.jpg');
+}
+.novel-4{
+    background-image: url('images/Novel/im3.webp');
+}

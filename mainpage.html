@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Autour+One&family=Satisfy&family=Shrikhand&family=Young+Serif&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>ReadToon</title>
+</head>
+<body>
+    <section class="header">
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="images/READTOON1.png"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active-home" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Novels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Comics</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Latest
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Comics</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Novels</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex me-auto" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                        <ul class="navbar-nav ml-auto text-right">
+                            <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                            <li class="nav-item"><a class="nav-link" href="sign.html">Sign Up</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <div id="carouselExampleIndicators" class="carousel slide d-flex align-items-center justify-content-center mt-5">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/move/1.png" class="d-block mx-auto" style="max-width: 50%; max-height: 50vh; object-fit: contain;" alt="ReadToon">
+          </div>
+          <div class="carousel-item">
+            <img src="images/move/2.png" class="d-block mx-auto" style="max-width: 50%; max-height: 50vh; object-fit: contain;" alt="ReadToon">
+          </div>
+          <div class="carousel-item">
+            <img src="images/move/3.png" class="d-block mx-auto" style="max-width: 50%; max-height: 50vh; object-fit: contain;" alt="ReadToon">
+          </div>
+          <div class="carousel-item">
+            <img src="images/move/4.png" class="d-block mx-auto" style="max-width: 50%; max-height: 50vh; object-fit: contain;" alt="ReadToon">
+          </div>
+          <div class="carousel-item">
+            <img src="images/move/5.png" class="d-block mx-auto" style="max-width: 50%; max-height: 50vh; object-fit: contain;" alt="ReadToon">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="text">
+        <h1>Today's Pick</h1>
+    </div>
+    <section class="custom-container">
+        <a href="https://reaperscans.com/novels/4525-the-31st-piece-turns-the-tables" class="card">
+            <div class="c-image card-1"></div>
+            <h2>The 31st Piece Turns the Table</h2>
+        </a>
+        <a href="https://reaperscans.com/novels/2069-the-reincarnated-assassin-is-a-genius-swordsman" class="card">
+            <div class="c-image card-2"></div>
+            <h2>The Reincarnated Assassin is a Genius Swordsman</h2>
+        </a>
+        <a href="https://reaperscans.com/novels/9294-hunter-academys-battle-god" class="card">
+            <div class="c-image card-3"></div>
+            <h2>Hunters Academy's Battle God</h2>
+        </a>
+        <a href="https://reaperscans.com/comics/6080-martial-streamer" class="card">
+            <div class="c-image card-4"></div>
+            <h2>Martial Streamer</h2>
+        </a>
+        <a href="https://reaperscans.com/novels/7257-necromancer-academys-genius-summoner" class="card">
+            <div class="c-image card-5"></div>
+            <h2>Necromancer Academy Genius</h2>
+        </a>
+        
+    </section>
+    
+    <div class="text">
+        <h3>Latest Comics</h3>
+    </div>
+    <!--Comic Section-->
+    <section class="comic-container">
+        <a href="https://reaperscans.com/comics/1356-arcane-sniper" class="Comic-card">
+            <div class="c-image comic-1"></div>
+            <h2>Arcane Sniper</h2>
+            <div class="button-container">
+                <button class="card-button">Explore</button>
+            </div>
+        </a>
+        <a href="https://reaperscans.com/comics/4073-overgeared" class="Comic-card">
+            <div class="c-image comic-2"></div>
+            <h2>Overgeard</h2>
+            <div class="button-container">
+                <button class="card-button">Explore</button>
+            </div>
+        </a>
+        <a href="https://reaperscans.com/comics/5134-level-up-with-skills" class="Comic-card">
+            <div class="c-image comic-3"></div>
+            <h2>Level up with Skills</h2>
+            <div class="button-container">
+                <button class="card-button">Explore</button>
+            </div>
+        </a>
+        <a href="https://reaperscans.com/comics/4050-swordmasters-youngest-son" class="Comic-card">
+            <div class="c-image comic-4"></div>
+            <h2>Swordmaster Youngest Son</h2>
+            <div class="button-container">
+                <button class="card-button">Explore</button>
+            </div>
+        </a>
+    </section>
+    <div class="text-n">
+        <h3>Latest Novels</h3>
+    </div>
+    <section class="comic-container">
+        <a href="https://reaperscans.com/novels/5172-the-divine-hunter" class="Comic-card">
+            <div class="c-image novel-1"></div>
+            <h2>Divine Hunter</h2>
+            <div class="button-container">
+                <button class="card-button">Explore</button>
+            </div>
+        </a>
+        <a href="https://reaperscans.com/novels/2955-solo-swordmaster" class="Comic-card">
+            <div class="c-image novel-2"></div>
+            <h2>Solo Swordmaster </h2>
+            <div class="button-container">
+                <button class="card-button">Explore</button>
+            </div>
+        </a>
+        <a href="https://reaperscans.com/novels/7922-im-not-a-regressor" class="Comic-card">
+            <div class="c-image novel-3"></div>
+            <h2>I'm Not a Regressor </h2>
+            <div class="button-container">
+                <button class="card-button">Explore</button>
+            </div>
+        </a>
+        <a href="https://reaperscans.com/novels/3771-hyper-luck-novel" class="Comic-card">
+            <div class="c-image novel-4"></div>
+            <h2>Hyper Luck </h2>
+            <div class="button-container">
+                <button class="card-button">Explore</button>
+            </div>
+        </a>
+    </section>
+
+</body>
+</html>
